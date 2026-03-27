@@ -1,8 +1,8 @@
 # Buffer Overflow Exploitation under NX and ASLR Protections
 
-This work practically adapts Krahmer's borrowed code chunks technique <sub>[1]</sub> for modern x86-64 systems, building a working ROP chain exploit that bypasses NX using return-to-libc attacks.
+This work practically adapts Krahmer's borrowed code chunks technique <sup>[1]</sup> for modern x86-64 systems, building a working ROP chain exploit that bypasses NX using return-to-libc attacks.
 
-Additionally, it explains how ASLR can be bypassed using techniques such as dl-resolve, based on Wojtczuk’s return-into-lib(c) work <sub>[2]</sub>.
+Additionally, it explains how ASLR can be bypassed using techniques such as dl-resolve, based on Wojtczuk’s return-into-lib(c) work <sup>[2]</sup>.
 
 ## References
 
